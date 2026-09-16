@@ -23,6 +23,20 @@ Every button below downloads the appropriate package from the **latest release**
 | Miyoo Mini Plus | Other compatible Miyoo firmware | [Download Miyoo ARMHF](https://github.com/monokaijs/RetroHero/releases/latest/download/RetroHero-latest-miyoo-armhf.zip) | Extract to the SD-card root |
 | Miyoo Mini | Other compatible Miyoo firmware | [Download Miyoo ARMHF](https://github.com/monokaijs/RetroHero/releases/latest/download/RetroHero-latest-miyoo-armhf.zip) | Extract to the SD-card root; network access requires Wi-Fi hardware |
 
+### R35S / R36S / R40S Pro and ArkOS RK3326 family
+
+| Device | Firmware | Latest download | Install |
+|---|---|---|---|
+| R35S | ArkOS / compatible community ArkOS | [Download ArkOS RK3326](https://github.com/monokaijs/RetroHero/releases/latest/download/RetroHero-latest-arkos-rk3326-arm64.zip) | Extract at the root of the active ROM card |
+| R36S | ArkOS / ArkOS-R3XS / dArkOS | [Download ArkOS RK3326](https://github.com/monokaijs/RetroHero/releases/latest/download/RetroHero-latest-arkos-rk3326-arm64.zip) | Extract at the root of the active ROM card |
+| R40S Pro | ArkOS / compatible community ArkOS | [Download ArkOS RK3326](https://github.com/monokaijs/RetroHero/releases/latest/download/RetroHero-latest-arkos-rk3326-arm64.zip) | Extract at the root of the active ROM card |
+| Other RK3326 handhelds | ArkOS family | [Download ArkOS RK3326](https://github.com/monokaijs/RetroHero/releases/latest/download/RetroHero-latest-arkos-rk3326-arm64.zip) | Extract at the root of the active ROM card |
+
+After extraction, refresh the game list if necessary and launch **RetroHero** from the **Ports** collection. The launcher detects `/roms` versus `/roms2`, uses PortMaster's controller mapping when available, and includes a raw R36S/R40S fallback. Devices without built-in Wi-Fi require a compatible USB Wi-Fi adapter.
+
+> [!NOTE]
+> R36S and R40S names are used by several hardware revisions and clones. This package targets models with an **RK3326 CPU and 64-bit ArkOS userspace**.
+
 ### TrimUI
 
 | Device | Firmware | Latest download | Install |
