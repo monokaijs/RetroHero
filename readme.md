@@ -1,2 +1,0 @@
-# RetroHero
-Welcome here!
