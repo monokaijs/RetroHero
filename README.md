@@ -23,6 +23,9 @@ Every button below downloads the appropriate package from the **latest release**
 | Miyoo Mini Plus | Other compatible Miyoo firmware | [Download Miyoo ARMHF](https://github.com/monokaijs/RetroHero/releases/latest/download/RetroHero-latest-miyoo-armhf.zip) | Extract to the SD-card root |
 | Miyoo Mini | Other compatible Miyoo firmware | [Download Miyoo ARMHF](https://github.com/monokaijs/RetroHero/releases/latest/download/RetroHero-latest-miyoo-armhf.zip) | Extract to the SD-card root; network access requires Wi-Fi hardware |
 
+The Miyoo package includes its matching EGL and device runtime libraries. It
+also writes startup diagnostics to `App/RetroHero/log.txt` if a launch fails.
+
 ### R35S / R36S / R40S Pro and ArkOS RK3326 family
 
 | Device | Firmware | Latest download | Install |
